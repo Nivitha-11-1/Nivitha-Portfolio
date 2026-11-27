@@ -256,10 +256,10 @@ export const portfolioConfig = {
 
   education: [
     {
-      degree: "Computer Science and Business Systems (CSBS)",
       institution: "R.M.K. Engineering College",
+      degree: "Computer Science and Business Systems (CSBS)",
       location: "Chennai, India",
-      currentYear: "2026",
+      academicPeriod: "2025–2029",
       graduationYear: "2029",
       cgpa: "9.365/10",
       coursework: [
@@ -275,17 +275,41 @@ export const portfolioConfig = {
   experienceAndTraining: [
     {
       organization: "Thiranex – Skill Development and Future Tech",
-      programName: "[Program Name — e.g., Full-Stack / Technical Training Program]",
-      duration: "[Start Date – End Date]",
-      type: "Technical Training",
-      skillsLearned: [
-        "[Skill 1 — update in portfolioConfig.js]",
-        "[Skill 2 — update in portfolioConfig.js]",
-        "[Skill 3 — update in portfolioConfig.js]",
-      ],
-      responsibilities: [
-        "[Add key training modules, practical exercises, or hands-on deliverables completed during the program]",
-        "[Add collaborative or technical problem-solving activities practiced]",
+      role: "Full Stack Development Intern",
+      type: "Online Internship",
+      duration: "23 May 2026 – 22 June 2026",
+      achievement:
+        "Successfully completed an internship in Full Stack Development.",
+      certificateId: "THX-MAY2326-833",
+      /**
+       * Place your actual internship certificate PDF in `public/certificates/`
+       * (for example, `public/certificates/Thiranex_Internship_Certificate.pdf`)
+       * and set `certificateUrl` to "/certificates/Thiranex_Internship_Certificate.pdf".
+       * The "View Internship Certificate" button only renders when this path is set.
+       */
+      certificateUrl: "",
+      certificateLabel: "View Internship Certificate",
+      projectsCompleted: [
+        {
+          title: "Personal Portfolio Website",
+          description:
+            "Developed a personal portfolio website to showcase professional information, technical skills and projects.",
+        },
+        {
+          title: "Task Management Application",
+          description:
+            "Worked on a task management application for organizing and managing tasks.",
+        },
+        {
+          title: "E-Commerce Web Application",
+          description:
+            "Worked on an e-commerce web application with shopping-related functionality.",
+        },
+        {
+          title: "Blog Platform with Comments",
+          description:
+            "Worked on a blog platform with commenting functionality.",
+        },
       ],
     },
   ],

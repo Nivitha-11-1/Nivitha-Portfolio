@@ -32,20 +32,13 @@ export default function Education({ education }) {
                       <GraduationCap size={15} aria-hidden="true" />
                       <span>CSBS Undergraduate</span>
                     </span>
-                    <span className="info-card__cgpa-badge">
-                      CGPA: <strong>{edu.cgpa}</strong>
-                    </span>
                   </div>
                 </div>
 
-                <div className="meta-grid">
+                <div className="meta-grid meta-grid--three">
                   <div className="meta-box">
-                    <span className="meta-box__label">Degree</span>
-                    <span className="meta-box__value">{edu.degree}</span>
-                  </div>
-                  <div className="meta-box">
-                    <span className="meta-box__label">Academic Year</span>
-                    <span className="meta-box__value">{edu.currentYear}</span>
+                    <span className="meta-box__label">Academic Period</span>
+                    <span className="meta-box__value">{edu.academicPeriod}</span>
                   </div>
                   <div className="meta-box">
                     <span className="meta-box__label">Expected Graduation</span>
