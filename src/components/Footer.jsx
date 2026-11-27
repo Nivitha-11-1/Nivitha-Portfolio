@@ -20,7 +20,7 @@ export default function Footer({ personal, social }) {
           </div>
 
           <div className="footer__links">
-            {hasGitHub ? (
+            {hasGitHub && (
               <a
                 href={social.githubUrl}
                 target="_blank"
@@ -30,17 +30,9 @@ export default function Footer({ personal, social }) {
                 <GitHubIcon size={16} />
                 <span>GitHub</span>
               </a>
-            ) : (
-              <span
-                className="footer__link footer__link--muted"
-                title="Configure GitHub URL in src/config/portfolioConfig.js"
-              >
-                <GitHubIcon size={16} />
-                <span>GitHub</span>
-              </span>
             )}
 
-            {hasLinkedIn ? (
+            {hasLinkedIn && (
               <a
                 href={social.linkedinUrl}
                 target="_blank"
@@ -50,14 +42,6 @@ export default function Footer({ personal, social }) {
                 <LinkedInIcon size={16} />
                 <span>LinkedIn</span>
               </a>
-            ) : (
-              <span
-                className="footer__link footer__link--muted"
-                title="Configure LinkedIn URL in src/config/portfolioConfig.js"
-              >
-                <LinkedInIcon size={16} />
-                <span>LinkedIn</span>
-              </span>
             )}
 
             {hasEmail ? (

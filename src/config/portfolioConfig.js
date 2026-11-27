@@ -57,8 +57,8 @@ export const portfolioConfig = {
      *   linkedinUrl: "https://www.linkedin.com/in/your-profile"
      */
     email: "",
-    githubUrl: "",
-    linkedinUrl: "",
+    githubUrl: "https://github.com/Nivitha-11-1",
+    linkedinUrl: "https://www.linkedin.com/in/nivitha-r-2b904b389",
   },
 
   contact: {

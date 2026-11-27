@@ -133,34 +133,30 @@ export default function Contact({ personal, social, contact }) {
         <RevealBlock>
           <div className="contact-grid">
             <aside className="contact-info-card" aria-label="Contact Details">
-              <div className="contact-item">
-                <div className="contact-item__icon" aria-hidden="true">
-                  <Mail size={18} />
-                </div>
-                <div>
-                  <div className="contact-item__label">Email</div>
-                  {hasEmail ? (
+              {hasEmail && (
+                <div className="contact-item">
+                  <div className="contact-item__icon" aria-hidden="true">
+                    <Mail size={18} />
+                  </div>
+                  <div>
+                    <div className="contact-item__label">Email</div>
                     <a
                       href={`mailto:${social.email}`}
                       className="contact-item__value contact-item__link"
                     >
                       {social.email}
                     </a>
-                  ) : (
-                    <span className="contact-item__value">
-                      Configure email in portfolioConfig.js
-                    </span>
-                  )}
+                  </div>
                 </div>
-              </div>
+              )}
 
-              <div className="contact-item">
-                <div className="contact-item__icon" aria-hidden="true">
-                  <GitHubIcon size={18} />
-                </div>
-                <div>
-                  <div className="contact-item__label">GitHub</div>
-                  {hasGitHub ? (
+              {hasGitHub && (
+                <div className="contact-item">
+                  <div className="contact-item__icon" aria-hidden="true">
+                    <GitHubIcon size={18} />
+                  </div>
+                  <div>
+                    <div className="contact-item__label">GitHub</div>
                     <a
                       href={social.githubUrl}
                       target="_blank"
@@ -169,21 +165,17 @@ export default function Contact({ personal, social, contact }) {
                     >
                       {social.githubUrl}
                     </a>
-                  ) : (
-                    <span className="contact-item__value">
-                      Configure GitHub URL in portfolioConfig.js
-                    </span>
-                  )}
+                  </div>
                 </div>
-              </div>
+              )}
 
-              <div className="contact-item">
-                <div className="contact-item__icon" aria-hidden="true">
-                  <LinkedInIcon size={18} />
-                </div>
-                <div>
-                  <div className="contact-item__label">LinkedIn</div>
-                  {hasLinkedIn ? (
+              {hasLinkedIn && (
+                <div className="contact-item">
+                  <div className="contact-item__icon" aria-hidden="true">
+                    <LinkedInIcon size={18} />
+                  </div>
+                  <div>
+                    <div className="contact-item__label">LinkedIn</div>
                     <a
                       href={social.linkedinUrl}
                       target="_blank"
@@ -192,13 +184,9 @@ export default function Contact({ personal, social, contact }) {
                     >
                       {social.linkedinUrl}
                     </a>
-                  ) : (
-                    <span className="contact-item__value">
-                      Configure LinkedIn URL in portfolioConfig.js
-                    </span>
-                  )}
+                  </div>
                 </div>
-              </div>
+              )}
 
               <div className="contact-item">
                 <div className="contact-item__icon" aria-hidden="true">
