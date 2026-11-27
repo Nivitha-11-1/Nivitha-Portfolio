@@ -1,0 +1,84 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1345 >>
+stream
+BT
+/F1 16 Tf
+54 740 Td
+(Nivitha R) Tj
+/F1 10 Tf
+0 -20 Td
+(Aspiring Software Developer | CSBS Student | Java | Python | Full-Stack Development) Tj
+0 -16 Td
+(Location: Chennai, India) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(RESUME PLACEHOLDER) Tj
+0 -16 Td
+(Replace public/resume/Nivitha_R_Resume.pdf with your final PDF resume.) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Summary:) Tj
+0 -16 Td
+(Computer Science and Business Systems \\(CSBS\\) student passionate about software) Tj
+0 -16 Td
+(development, problem-solving, and building practical technology solutions.) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Technical Skills:) Tj
+0 -16 Td
+(- Languages: Java, Python, JavaScript) Tj
+0 -16 Td
+(- Frontend: HTML, CSS, React.js) Tj
+0 -16 Td
+(- Backend: Node.js, Express.js, REST APIs) Tj
+0 -16 Td
+(- Database: SQL, MongoDB, SAP HANA) Tj
+0 -16 Td
+(- Tools: Git, GitHub, VS Code) Tj
+0 -16 Td
+(- Core CS: OOP, Data Structures, DBMS, Problem Solving) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Projects:) Tj
+0 -16 Td
+(1. Eco Alert Aggregator \\(Featured Project\\)) Tj
+0 -16 Td
+(2. Personal Portfolio Management System \\(React, Node.js, Express, MongoDB, JWT\\)) Tj
+0 -16 Td
+(3. DemandShield AI \\(Python, SAP HANA, Streamlit, AI/ML - SAP HackFest 2026 Regional Finale Participant\\)) Tj
+0 -16 Td
+(4. Underground Coal Mine Subsidence Monitoring \\(ESP32, IoT Sensors, Embedded Programming\\)) Tj
+0 -16 Td
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001637 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1707
+%%EOF
